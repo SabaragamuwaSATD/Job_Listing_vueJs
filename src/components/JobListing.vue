@@ -1,8 +1,11 @@
 <script setup>
-import { defineProps, computed, ref } from "vue";
+import { computed, ref } from "vue";
 
 const props = defineProps({
-  job: Object,
+  job: {
+    type: Object,
+    required: true,
+  },
 });
 
 const showFullDescription = ref(false);
@@ -20,7 +23,7 @@ const truncatedDescription = computed(() => {
 });
 </script>
 <template>
-  <div class="bg-white rounded-xl shadow-md relative">
+  <div v-if="job" class="bg-white rounded-xl shadow-md relative">
     <div class="p-4">
       <div class="mb-6">
         <div class="text-gray-600 my-2">{{ job.type }}</div>
@@ -35,7 +38,7 @@ const truncatedDescription = computed(() => {
           @click="toogleDescription"
           class="text-green-500 hover:text-green-600 mt-5"
         >
-          See more
+          {{ showFullDescription ? "Less" : "More" }}
         </button>
       </div>
 
@@ -45,7 +48,7 @@ const truncatedDescription = computed(() => {
 
       <div class="flex flex-col lg:flex-row justify-between mb-4">
         <div class="text-orange-700 mb-3">
-          <i class="fa-solid fa-location-dot text-lg"></i>
+          <i class="pi pi-map-marker text-orange-700"></i>
           {{ job.location }}
         </div>
         <a
@@ -56,5 +59,8 @@ const truncatedDescription = computed(() => {
         </a>
       </div>
     </div>
+  </div>
+  <div v-else class="bg-white rounded-xl shadow-md p-4 text-center">
+    No job found
   </div>
 </template>
