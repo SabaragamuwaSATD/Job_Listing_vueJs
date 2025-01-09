@@ -1,11 +1,11 @@
 {
   "jobs": [
     {
-      "title": "Senior Vue Dev",
       "type": "Full-Time",
-      "location": "Boston, MA",
+      "title": "Senior Vue Dev",
       "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
-      "salary": "$90K - $100K",
+      "salary": "Over $200K",
+      "location": "Boston, MA",
       "company": {
         "name": "NewTek Solutions",
         "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
@@ -85,7 +85,6 @@
       }
     },
     {
-      "id": "fe76",
       "type": "Part-Time",
       "title": "Acton Reeves",
       "description": "Animi error alias e",
@@ -94,9 +93,10 @@
       "company": {
         "name": "Brown Summers Associates",
         "description": "Illo omnis perspicia",
-        "contacEtmail": "baduzoto@mailinator.com",
+        "contactEmail": "tharindusabaragamuwa6@gmail.com",
         "contactPhone": "+1 (392) 147-8976"
-      }
+      },
+      "id": "fe76"
     },
     {
       "id": "315e",
