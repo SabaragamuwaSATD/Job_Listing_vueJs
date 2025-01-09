@@ -29,9 +29,9 @@ const handleSubmit = async () => {
     location: form.location,
     company: {
       name: form.company.name,
-      company_description: form.company.company_description,
-      contact_email: form.company.contact_email,
-      contact_phone: form.company.contact_phone,
+      description: form.company.company_description,
+      contactEmail: form.company.contact_email,
+      contactPhone: form.company.contact_phone,
     },
   };
 

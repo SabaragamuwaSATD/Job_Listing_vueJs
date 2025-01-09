@@ -85,17 +85,31 @@
       }
     },
     {
-      "id": "1627",
-      "type": "Full-Time",
-      "title": "Yeo Eaton",
-      "description": "Odio aut magnam magn",
-      "salary": "Over $200K",
-      "location": "Nisi velit ea incid",
+      "id": "fe76",
+      "type": "Part-Time",
+      "title": "Acton Reeves",
+      "description": "Animi error alias e",
+      "salary": "$80K - $90K",
+      "location": "Eos qui commodi in u",
       "company": {
-        "name": "Buchanan and Blair Co",
-        "company_description": "Et saepe consequuntu",
-        "contact_email": "duhig@mailinator.com",
-        "contact_phone": "+1 (942) 224-7631"
+        "name": "Brown Summers Associates",
+        "description": "Illo omnis perspicia",
+        "contacEtmail": "baduzoto@mailinator.com",
+        "contactPhone": "+1 (392) 147-8976"
+      }
+    },
+    {
+      "id": "315e",
+      "type": "Part-Time",
+      "title": "Alfreda Daniel",
+      "description": "Aliquip provident o",
+      "salary": "$100K - $125K",
+      "location": "Perspiciatis maiore",
+      "company": {
+        "name": "Becker and Moody Plc",
+        "description": "Quis vel eu delectus",
+        "contactEmail": "dafoho@mailinator.com",
+        "contactPhone": "+1 (505) 859-4982"
       }
     }
   ]
